@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+/* Header */
+
+header {
+    background: #1877F2;
+    padding: 6px 0;
+    overflow: hidden;
+}
+
+/* header::after {
+    content: '';
+    clear: both;
+    display: block;
+} */
+
+.logo {
+    width: 30%;
+    float: left;
+}
+
+.logo img {
+    width: 180px;
+    margin-top: 8px;
+}
+
+.login {
+    width: 70%;
+    float: left;
+}
+
+.login form {
+    float: right;
+    color: #fff;
+    margin-top: 6px;
+}
+
+.login .email,
+.login .pass,
+.login .login-btn {
+    float: left;
+    margin-left: 15px;
+}
+
+.login .email label,
+.login .pass label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+}
+
+.login input {
+    display: block;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: 2px 5px;
+    border: 1px solid #000;
+}
+
+.login .pass a {
+    color: #cee1ff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 5px 0;
+    display: block;
+}
+
+.login .login-btn button {
+    background: #4267b2;
+    border: 1px solid #29487d;
+    color: #fff;
+    font-weight: 600;
+    padding: 3px 8px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+
+/* Sign Up Area */
+.signup-area {
+    background: linear-gradient(#fff, #D4D9E9);
+    padding: 10px 0;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.left-area {
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+}
+
+.left-area h1 {
+    font-size: 20px;
+    color: #0e385f;
+    margin: 10px 0;
+
+    font-weight: 600;
+}
+
+.left-area img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 5rem;
+}
+
+.right-area {
+    width: 45%;
+    float: left;
+}
+
+.right-area h2 {
+    font-size: 32px;
+    color: #333;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.right-area h4 {
+    font-size: 19px;
+    font-weight: 400;
+    margin: 5px 0 10px 0;
+}
+
+.right-area input[type="text"],
+.right-area input[type="password"] {
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#first {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+
+#last {
+    float: left;
+    width: 48%;
+}
+
+.birthday {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.birthday h4 {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.birthdate select {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    float: left;
+    margin-right: 10px;
+}
+
+.birthlink {
+    float: left;
+    margin-top: 4px;
+}
+
+.birthlink a,
+form p a,
+.business a {
+    text-decoration: none;
+}
+
+.birthlink a:hover,
+form p a:hover,
+.business a:hover {
+    text-decoration: underline;
+}
+
+.gender {
+    margin-bottom: 10px;
+}
+
+.gender label {
+    font-size: 1.6rem;
+    margin: 0 5px;
+}
+
+form p {
+    font-size: 1.3rem;
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+.signup-btn button {
+    background: linear-gradient(#67ae55, #578843);
+    color: #fff;
+    padding: 8px 40px;
+    font-size: 1.6rem;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.business {
+    margin-top: 25px;
+    font-size: 1.6rem;
+}
+
+/* Start Footer Area */
+footer {
+    padding: 20px 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+ul li a {
+    color: #1877F2;
+}
+
+hr {
+    background: #ddd;
+    margin: 10px 0;
+    border: 0;
+    height: 2px;
+}
+
+
+.language a,
+.footer-menu a {
+    font-size: 1.1rem;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+/* End Footer Area */
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 1000px) {
+
+    /* Header */
+    .logo {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 200px;
+        margin-top: 5px;
+    }
+
+    .login {
+        width: 500px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .login form {
+        float: none;
+    }
+
+    /* Sign up area */
+    .left-area {
+        width: 100%;
+        float: none;
+    }
+
+    .right-area {
+        width: 100%;
+        float: none;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .login {
+        width: 100%;
+    }
+
+    .login .email,
+    .login .pass,
+    .login .login-btn {
+        float: none;
+        margin-right: 0;
+    }
+
+    .login .email,
+    .login .pass {
+        margin-bottom: 10px;
+    }
+
+    .login input[type="text"],
+    .login input[type="password"] {
+        width: 100%;
+    }
+
+    .login .login-btn button {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #first {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #last {
+        width: 100%;
+    }
+}
